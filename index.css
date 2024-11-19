@@ -211,6 +211,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     background-image: none;
+    gap: 20px;
   }
 
   .ubicacion-contacto {
@@ -268,7 +269,11 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
+  .contenedor-ubicacion {
+    gap: 20px;
+  }
 }
+
 @media (max-width: 630px) {
   .hero_tit {
     gap: 50px;
